@@ -2,11 +2,10 @@ import java.awt.*;
 import javax.swing.*;
 /**
  * A Style Strategy that implements the style strategy interface.
- * Team Happy.
  */
 public class StyleStrategyA implements StyleStrategy {
     /**
-     * Constructs a style strategy B.
+     * Constructs a style strategy A.
      */
     public StyleStrategyA() {
     }
