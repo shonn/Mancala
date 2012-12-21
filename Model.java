@@ -67,6 +67,7 @@ public class Model {
                 break;
             }
         }
+        notifyListeners();
     }
 
     /**
@@ -107,7 +108,6 @@ public class Model {
             currentPlayer = nextPlayer(currentPlayer);
         //check if there is a winner at end of turn
         checkForEmptyRow();
-        notifyListeners();
     }
 
     /**
