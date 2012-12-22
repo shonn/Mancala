@@ -70,7 +70,7 @@ public class Board extends JFrame implements ChangeListener
      * by the player.
      * @param style the style chosen by the player
      */
-    public void setStyle(StyleStrategy style)
+    private void setStyle(StyleStrategy style)
     {
         this.style = style;
         buttons = new JButton[ROWS][BUTTONS];
